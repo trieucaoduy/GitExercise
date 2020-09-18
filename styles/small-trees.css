@@ -4,3 +4,13 @@
 .tiny-forest__tree_small {
     transform: scaleX(0.45) scaleY(0.52);
 }
+
+.tiny-forest__tree_small_position-first {
+    bottom: 57px;
+    left: 103px;
+}
+
+.tiny-forest__tree_small_position-second {
+    bottom: 71px;
+    left: 293px;
+}
