@@ -1,0 +1,40 @@
+/*/////////////////////////////////////////
+    Trees
+/////////////////////////////////////////*/
+.tiny-forest__tree {
+    display: block;
+    position: absolute;
+}
+
+.tiny-forest__tree__trunk {
+    display: block;
+    position: absolute;
+    background: #56463c;
+    height: 16px;
+    width: 8px;
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+}
+
+.tiny-forest__tree__leaves-container {
+    display: block;
+    position: absolute;
+    height: 260px;
+    width: 36px;
+    bottom: 8px;
+    left: -14px;
+}
+
+.tiny-forest__tree__leaves {
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 0;
+    left: 0;
+    border-top: 130px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 130px solid #67a779;
+    border-left: 18px solid transparent;
+}
