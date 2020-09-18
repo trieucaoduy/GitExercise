@@ -51,3 +51,18 @@
     transform-origin: top right;
     /*background: red;*/
 }
+
+.tiny-forest__tree__leaves__shadow {
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    bottom: 0px;
+    left: 0;
+    border-top: 130px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 130px solid #588d71;
+    border-left: 18px solid transparent;
+    transform: rotate(-3deg);
+    transform-origin: center center;
+}
