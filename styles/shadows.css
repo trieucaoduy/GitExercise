@@ -25,3 +25,59 @@
     top: 90px;
     right: 61px;
 }
+
+/*/////////////////////////////////////////
+    Middle shadows
+/////////////////////////////////////////*/
+.tiny-forest__ground__middle-shadows {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #bdc7cc;
+    z-index: 1;
+}
+
+.tiny-forest__ground__middle-shadows_first {
+    top: 81px;
+    right: 274px;
+}
+
+.tiny-forest__ground__middle-shadows_second {
+    top: 56px;
+    right: 225px;
+}
+
+.tiny-forest__ground__middle-shadows_third {
+    top: 21px;
+    right: 191px;
+}
+
+.tiny-forest__ground__middle-shadows_fourth {
+    top: 72px;
+    right: 123px;
+}
+
+/*/////////////////////////////////////////
+    Small shadows
+/////////////////////////////////////////*/
+.tiny-forest__ground__small-shadows {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #bdc7cc;
+    z-index: 1;
+}
+
+.tiny-forest__ground__small-shadows_first {
+    top: 61px;
+    right: 214px;
+}
+
+.tiny-forest__ground__small-shadows_second {
+    top: 47px;
+    right: 23px;
+}
