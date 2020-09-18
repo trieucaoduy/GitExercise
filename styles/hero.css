@@ -1,0 +1,318 @@
+/*/////////////////////////////////////////
+    Hero
+/////////////////////////////////////////*/
+.tiny-forest__hero {
+    display: block;
+    position: absolute;
+}
+
+.tiny-forest__hero:before {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 23px;
+    border-radius: 50%;
+    background-color: #bdc7cc;
+    bottom: -2px;
+    right: -10px;
+}
+
+.tiny-forest__hero_animation {
+    bottom: 50px;
+    left: 150px;
+    animation: walk 18s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__belly {
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 11px;
+    background-color: #345e71;
+    border-radius: 3px;
+    bottom: 4px;
+    left: 0;
+    animation: belly 1s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__head {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 5px;
+    background-color: #e8c7b6;
+    border-radius: 3px;
+    bottom: 13px;
+    left: 3px;
+    animation: head 1s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__head__hat {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 0;
+    bottom: 13px;
+    left: 0px;
+    border-top: 8px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid #e9321a;
+    border-left: 4px solid transparent;
+    transform: rotate(8deg);
+}
+
+.tiny-forest__hero__head__hat:after {
+    display: block;
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    top: -2px;
+    right: -2px;
+}
+
+.tiny-forest__hero__leg {
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 4px;
+    background-color: #1c3743;
+    border-radius: 2px;
+}
+
+.tiny-forest__hero__leg_left {
+    bottom: 0px;
+    left: 0px;
+    animation: leg-left 1s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__leg_right {
+    bottom: 0px;
+    left: 7px;
+    animation: leg-right 1s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__arm {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 8px;
+    background-color: #345e71;
+    border-radius: 3px;
+}
+
+.tiny-forest__hero__arm_left {
+    top: 0px;
+    left: -2px;
+    animation: arm-left 1s linear infinite;
+    /**********/
+}
+
+.tiny-forest__hero__arm_right {
+    top: 0px;
+    left: 5px;
+    animation: arm-right 1s linear infinite;
+    /**********/
+}
+
+@keyframes head {
+    0% {
+        /*down*/
+        bottom: 11px;
+    }
+
+    25% {
+        /*up*/
+        bottom: 14px;
+    }
+
+    50% {
+        /*down*/
+        bottom: 11px;
+    }
+
+    75% {
+        /*up*/
+        bottom: 14px;
+    }
+
+    100% {
+        /*down*/
+        bottom: 11px;
+    }
+}
+
+@keyframes belly {
+    0% {
+        /*down*/
+        bottom: 3px;
+    }
+
+    25% {
+        /*up*/
+        bottom: 5px;
+    }
+
+    50% {
+        /*down*/
+        bottom: 3px;
+    }
+
+    75% {
+        /*up*/
+        bottom: 5px;
+    }
+
+    100% {
+        /*down*/
+        bottom: 3px;
+    }
+}
+
+@keyframes leg-left {
+    0% {
+        /*long*/
+        bottom: -1px;
+        left: -1px;
+    }
+
+    25% {
+        /*short*/
+        bottom: 0px;
+        left: 2px;
+    }
+
+    50% {
+        /*long*/
+        bottom: 2px;
+        left: 2px;
+    }
+
+    75% {
+        /*short*/
+        bottom: 4px;
+        left: 0px;
+    }
+
+    100% {
+        /*long, front quick contact*/
+        bottom: -1px;
+        left: -1px;
+    }
+}
+
+@keyframes leg-right {
+    0% {
+        /*long*/
+        bottom: 2px;
+        left: 7px;
+    }
+
+    25% {
+        /*short*/
+        bottom: 4px;
+        left: 5px;
+    }
+
+    50% {
+        /*long, front quick contact*/
+        bottom: -1px;
+        left: 4px;
+    }
+
+    75% {
+        /*short*/
+        bottom: 1px;
+        left: 7px;
+    }
+
+    100% {
+        /*long*/
+        bottom: 2px;
+        left: 7px;
+    }
+}
+
+@keyframes arm-left {
+    0% {
+        /*down*/
+        top: 1px;
+        left: 0px;
+    }
+
+    25% {
+        /*up*/
+        top: -2px;
+        left: -1px;
+    }
+
+    50% {
+        /*down*/
+        top: 1px;
+        left: -2px;
+    }
+
+    75% {
+        /*up*/
+        top: 2px;
+        left: -1px;
+    }
+
+    100% {
+        /*down*/
+        top: 1px;
+        left: 0px;
+    }
+}
+
+@keyframes arm-right {
+    0% {
+        /*down*/
+        top: 1px;
+        left: 3px;
+    }
+
+    25% {
+        /*up*/
+        top: 2px;
+        left: 4px;
+    }
+
+    50% {
+        /*down*/
+        top: 1px;
+        left: 4px;
+    }
+
+    75% {
+        /*up*/
+        top: -1px;
+        left: 5px;
+    }
+
+    100% {
+        /*down*/
+        top: 1px;
+        left: 3px;
+    }
+}
+
+@keyframes walk {
+    0% {
+        bottom: 125px;
+        left: 242px;
+    }
+
+    100% {
+        bottom: -26px;
+        left: 65px;
+    }
+}
