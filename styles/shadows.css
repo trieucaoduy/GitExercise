@@ -1,0 +1,27 @@
+/*/////////////////////////////////////////
+    Huge shadows
+/////////////////////////////////////////*/
+.tiny-forest__ground__huge-shadows {
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 47px;
+    border-radius: 50%;
+    background-color: #bdc7cc;
+    z-index: 1;
+}
+
+.tiny-forest__ground__huge-shadows_first {
+    top: 39px;
+    right: 242px;
+}
+
+.tiny-forest__ground__huge-shadows_second {
+    top: 57px;
+    right: 87px;
+}
+
+.tiny-forest__ground__huge-shadows_third {
+    top: 90px;
+    right: 61px;
+}
