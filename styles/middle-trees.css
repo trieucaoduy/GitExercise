@@ -1,0 +1,26 @@
+/*/////////////////////////////////////////
+    Trees
+/////////////////////////////////////////*/
+.tiny-forest__tree_middle {
+    transform: scaleX(0.60) scaleY(0.70);
+}
+
+.tiny-forest__tree_middle_position-first {
+    bottom: 36px;
+    left: 40px;
+}
+
+.tiny-forest__tree_middle_position-second {
+    bottom: 61px;
+    left: 89px;
+}
+
+.tiny-forest__tree_middle_position-third {
+    bottom: 96px;
+    left: 124px;
+}
+
+.tiny-forest__tree_middle_position-fourth {
+    bottom: 45px;
+    left: 191px;
+}
