@@ -1,0 +1,21 @@
+/*/////////////////////////////////////////
+    Trees
+/////////////////////////////////////////*/
+.tiny-forest__tree_huge {
+    transform: scale(1);
+}
+
+.tiny-forest__tree_huge_position-first {
+    bottom: 76px;
+    left: 66px;
+}
+
+.tiny-forest__tree_huge_position-second {
+    bottom: 58px;
+    left: 222px;
+}
+
+.tiny-forest__tree_huge_position-third {
+    bottom: 25px;
+    left: 245px;
+}
