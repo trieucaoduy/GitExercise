@@ -8,9 +8,9 @@
 
 .tiny-forest__tree__trunk {
     display: block;
-    position: absolute;
+    position: relative;
     background: #56463c;
-    height: 16px;
+    height: 50px;
     width: 8px;
     border-radius: 4px;
     bottom: 0;
@@ -34,20 +34,13 @@
     top: 0;
     left: 0;
     border-top: 130px solid transparent;
-    border-right: 18px solid transparent;
-    border-bottom: 130px solid #67a779;
     border-left: 18px solid transparent;
 }
 
 .tiny-forest__tree__leaves__shadow-cropped {
-    display: block;
-    position: absolute;
-    height: 130px;
+    height: 56px;
     width: 18px;
     bottom: 0;
-    left: 0;
-    overflow: hidden;
-    transform: rotate(3deg);
-    transform-origin: top right;
+    left: 50;
     /*background: red;*/
 }
