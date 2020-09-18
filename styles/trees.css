@@ -38,3 +38,16 @@
     border-bottom: 130px solid #67a779;
     border-left: 18px solid transparent;
 }
+
+.tiny-forest__tree__leaves__shadow-cropped {
+    display: block;
+    position: absolute;
+    height: 130px;
+    width: 18px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    transform: rotate(3deg);
+    transform-origin: top right;
+    /*background: red;*/
+}
